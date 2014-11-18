@@ -1,0 +1,30 @@
+{
+  "name": "turf-crosstrack",
+  "version": "0.0.1",
+  "description": "Find distance between a point and a line segment",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jczaplew/turf-crosstrack.git"
+  },
+  "keywords": [
+    "turf",
+    "crosstrack",
+    "crosstrack distance"
+  ],
+  "author": "jczaplew",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/jczaplew/turf-crosstrack/issues"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "turf-bearing": "0.0.2",
+    "turf-distance": "^0.1.5"
+  }
+}
