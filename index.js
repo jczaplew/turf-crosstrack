@@ -31,5 +31,5 @@ module.exports = function(lineStart, lineEnd, point, units) {
   var bearing1 = toRad(bearing(lineStart, point)),
       bearing2 = toRad(bearing(lineStart, lineEnd));
 
-  return Math.asin(Math.sin(c/R)) * Math.sin(bearing1 - bearing2) * R;
+  return Math.abs(Math.asin(Math.sin(c/R)) * Math.sin(bearing1 - bearing2) * R);
 }
