@@ -1,5 +1,3 @@
-// Formula via http://www.movable-type.co.uk/scripts/latlong.html
-
 var bearing = require('turf-bearing'),
     distance = require('turf-distance');
 

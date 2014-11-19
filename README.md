@@ -37,3 +37,6 @@ var pointToLineDistance = crosstrack(a, b, c, 'miles');
 
 console.log(pointToLineDistance);
 ````
+
+### Credits
+Formula via http://www.movable-type.co.uk/scripts/latlong.html
